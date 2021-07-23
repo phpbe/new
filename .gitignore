@@ -1,0 +1,14 @@
+.idea
+vendor
+/composer.lock
+.DS_store
+Thumbs.db
+
+/cache/*
+!/cache/index.html
+
+/data/*
+!/data/index.html
+
+/upload/*
+!/upload/index.html
