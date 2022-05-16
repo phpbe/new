@@ -22,9 +22,10 @@ be/new 本身未提供功能，仅用来新建一个空的 be 项目。
 * Swoole模式： Docker容器
 
 
-    示例： docker run -d --name=be -v /your_code_path:/var/www -p 80:80 liu12/swoole:4.5.10-php7.4 php /var/www/server.php start
-       
-       
+    示例(PHP7.4)： docker run -d --name=be -v /your_code_path:/var/www -p 80:80 liu12/swoole:4.8.5-php7.4 php /var/www/server.php start
+    示例(PHP8.1)： docker run -d --name=be -v /your_code_path:/var/www -p 80:80 liu12/swoole:4.8.5-php8.1 php /var/www/server.php start
+
+
 * Swoole模式：  php标准环境下，安装swoole相关扩展
 
 
