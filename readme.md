@@ -15,9 +15,9 @@ be/new 本身未提供功能，仅用来新建一个空的 be 项目。
 
 ### 普通模式
 
-普通模式下入口文件为 index.php
+普通模式下入口文件为 www/index.php
 
-php标准环境， apache+php 或 nginx+php，根目录指向 index.php 所在目录
+php标准环境， apache+php 或 nginx+php，根目录指向 www
 
 
 ### Swoole模式
